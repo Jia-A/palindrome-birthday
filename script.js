@@ -17,11 +17,11 @@ function clickHandler(e){
         var isPalindrome = palindromeDateFormats(date);
 
        if(isPalindrome){
-           result.innerText = "Yayyy, your birthday is a palindrome!";
+           result.innerText = "Yayyy, your birthday is a palindrome!🎉🎉";
        }
        else{
            var [ count , nextDate] = nextPalinDate(date);
-           result.innerHTML = "Nahh, not a palindrome, the next palindrome date is "+nextDate.day+"-"+nextDate.month+"-"+nextDate.year+" and you missed it by "+count+" days";  
+           result.innerHTML = "Nahh😢 not a palindrome, the next palindrome date is "+nextDate.day+"-"+nextDate.month+"-"+nextDate.year+" and you missed it by only "+count+" days😶😶";  
        }
         
      }
